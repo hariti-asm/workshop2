@@ -4,7 +4,6 @@ int main() {
     int a, b;
     int somme;
 
-    // Demander à l'utilisateur de saisir les deux valeurs
     printf("Veuillez saisir la première valeur : ");
     scanf("%d", &a);
 
