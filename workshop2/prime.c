@@ -13,7 +13,7 @@ int main() {
         int isPrime = 1; 
 
         if (i <= 1) {
-            isPrime = 0; // 0 and 1 are not prime
+            isPrime = 0; // 0 and 1 are not prime just a commit 
         } else {
             for (int j = 2; j * j <= i; j++) {
                 if (i % j == 0) {

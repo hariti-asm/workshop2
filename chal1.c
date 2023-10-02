@@ -1,16 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    int a;
-    printf("enter a number ");
+int main() {
+    int number;
 
-    scand("%d",&a);
-    if ( a%2==0){
+    printf("Enter a number: ");
+    scanf("%d", &number);
 
-        printf("the %d is pair number" , a);
-    } else {
-
-        printf("the %d is not  pair number" , a);
-
+    printf("Multiplication table for %d:\n", number);
+    for (int i = 1; i <= 10; i++) {
+        printf("%d x %d = %d\n", number, i, number * i);
     }
+
+    return 0;
 }
